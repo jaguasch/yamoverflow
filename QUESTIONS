@@ -1,0 +1,53 @@
+This is a list of some threads for the initial loading:
+
+
+https://www.yammer.com/microsoft.com/#/inbox/show?threadId=308898429
+
+How do I fix the alarms about ".ready" files in PostgresQL database hosts?
+
+root@hdb-007:/mnt/pg_xlog/archive_status# for S in *ready; do rm $S ../${S%.ready}; done
+
+#yamoverflow #infra
+
+
+------------
+
+
+How do I connect to the alternate/oob vpn?
+
+https://www.yammer.com/microsoft.com/#/inbox/show?threadId=303154328
+
+the oobfw is a cisco ASA5505 that's setup a dedicated 10mb cogent line for OOB access in case the kenpocalypse happens (like this morning). Internally, you can access it at oobfw1. I sent you a message with a temporary password. Please login into oobfw1, and change your password by going into configure mode, and running a command like "username jsheridan password $MAH_NEW_PASSWORD! privilege 15" -- then write memory
+
+Additionally, the settings for actually being able to VPN into it -- you need to configure it as an IPSec VPN endpoint from within Mac OS X control panel.
+IP: 38.104.134.98
+Please set the preshared key to the other thing I skyped you. I'll also add the preshared key to our creds repo.
+Group name: REMOTE-VPN
+
+#yamoverflow #infra 
+
+
+---------------
+
+
+How do you do engineers onboarding in London?
+
+https://www.yammer.com/microsoft.com/#/Threads/show?threadId=308854619
+
+Generally they come to sf for two or more weeks. We also have people shadow or buddy with someone from their functional team.
+
+#yamoverflow #onboarding #london
+
+------------------
+
+
+Where do we register our Hack Day projects?
+
+https://www.yammer.com/microsoft.com/#/Threads/show?threadId=309345704
+
+Go to http://hackday.int.yammer.com/
+
+#yamoverflow #hackday
+
+
+
